@@ -3,7 +3,7 @@
  * 1. [Task 1]: Given Investigation Record Status is updated to Complete then
  *              Complaint Investigation Summary and Result of Investigation are updated.
  * Flow : CQ_TASK_Investigation_After_Update_RT_Flow
- *        CQ_Complaint_OnInvestigationComplete_SubFlow
+ *        CQ_TASK_Complaint_OnInvestigationComplete_SubFlow
  * --------------------------------------------------
  * 
 **/
@@ -89,7 +89,7 @@
      *          from Investigation Summary and Conclusion fields.
      * 
      * Flow : CQ_TASK_Investigation_After_Update_RT_Flow
-     *        CQ_Complaint_OnInvestigationComplete_SubFlow
+     *        CQ_TASK_Complaint_OnInvestigationComplete_SubFlow
      * @Story: [Task 1]
      */
     @isTest public static void givenInvestigationRecord_whenStatusComplete_thenUpdateComplaint() {

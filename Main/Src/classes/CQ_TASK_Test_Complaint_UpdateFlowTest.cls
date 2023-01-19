@@ -7,9 +7,11 @@
  * --------------------------------------------------
  * 
 **/
-@isTest public with sharing class CQ_TASK_Test_Complaint_UpdateFlowTest {
+@isTest 
+public with sharing class CQ_TASK_Test_Complaint_UpdateFlowTest {
     // * Description: This method is used to create initial data for the test methods
-    @TestSetup static void testSetup() {
+    @TestSetup 
+    static void testSetup() {
         //Get Standard User Profiel to create Standard User.
         list<Profile> standardUserProfile = [Select Id from Profile where Name='Standard User' Limit 1];
         
@@ -92,7 +94,8 @@
      *        CQ_TASK_Complaint_OnInvestigationComplete_SubFlow
      * @Story: [Task 1]
      */
-    @isTest public static void givenInvestigationRecord_whenStatusComplete_thenUpdateComplaint() {
+    @isTest 
+    public static void givenInvestigationRecord_whenStatusComplete_thenUpdateComplaint() {
         //Arrange : Get the User Record.
         list<User> stdUser = [Select Id from User where Username='test@tsu.com' LIMIT 1];
 

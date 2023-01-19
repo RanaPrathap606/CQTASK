@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CQCQTASK_ADDITIONAL_INFORMATION</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Additional Information</value>
+    </labels>
+    <labels>
+        <fullName>CQCQTASK_CLOSURE</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Closure</value>
+    </labels>
+    <labels>
+        <fullName>CQCQTASK_CUSTOMER</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Customer</value>
+    </labels>
+    <labels>
+        <fullName>CQCQTASK_CUSTOM_LINKS</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Custom Links</value>
+    </labels>
+    <labels>
+        <fullName>CQCQTASK_INFORMATION</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Information</value>
+    </labels>
+    <labels>
+        <fullName>CQCQTASK_MANUFACTURING_INFORMATION</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Manufacturing Information</value>
+    </labels>
+    <labels>
+        <fullName>CQCQTASK_PATIENT_INFORMATION</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Patient Information</value>
+    </labels>
+    <labels>
+        <fullName>CQCQTASK_PRODUCT</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Product</value>
+    </labels>
+    <labels>
+        <fullName>CQCQTASK_REGULATORY</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Regulatory</value>
+    </labels>
+    <labels>
+        <fullName>CQCQTASK_REPORTING_SITE</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Reporting Site</value>
+    </labels>
+    <labels>
+        <fullName>CQCQTASK_RETURNEVALUATION</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Return/Evaluation</value>
+    </labels>
+    <labels>
+        <fullName>CQCQTASK_SYSTEM_INFORMATION</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>System Information</value>
+    </labels>
+    <labels>
+        <fullName>CQTASK_ADDITIONAL_INFORMATION</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Additional Information</value>
+    </labels>
+    <labels>
+        <fullName>CQTASK_CLOSURE</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Closure</value>
+    </labels>
+    <labels>
+        <fullName>CQTASK_CUSTOMER</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Customer</value>
+    </labels>
+    <labels>
+        <fullName>CQTASK_CUSTOM_LINKS</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Custom Links</value>
+    </labels>
+    <labels>
+        <fullName>CQTASK_INFORMATION</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Information</value>
+    </labels>
+    <labels>
+        <fullName>CQTASK_MANUFACTURING_INFORMATION</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Manufacturing Information</value>
+    </labels>
+    <labels>
+        <fullName>CQTASK_PATIENT_INFORMATION</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Patient Information</value>
+    </labels>
+    <labels>
+        <fullName>CQTASK_PRODUCT</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Product</value>
+    </labels>
+    <labels>
+        <fullName>CQTASK_REGULATORY</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Regulatory</value>
+    </labels>
+    <labels>
+        <fullName>CQTASK_REPORTING_SITE</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Reporting Site</value>
+    </labels>
+    <labels>
+        <fullName>CQTASK_RETURNEVALUATION</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Return/Evaluation</value>
+    </labels>
+    <labels>
+        <fullName>CQTASK_SYSTEM_INFORMATION</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>System Information</value>
+    </labels>
+</CustomLabels>

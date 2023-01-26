@@ -13,6 +13,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>compliancequest__SQX_Complaint__c.CQ_TASK_Contact_E_Mail__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>compliancequest__SQX_Complaint__c.CQ_TASK_Contact_Phone_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>compliancequest__SQX_Complaint__c.CQ_TASK_External_CAPA_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -69,6 +79,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>compliancequest__SQX_Complaint__c.CQ_TASK_SQX_Supplier_Escalation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>compliancequest__SQX_Complaint__c.CQ_TASK_Shipping_Address__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>

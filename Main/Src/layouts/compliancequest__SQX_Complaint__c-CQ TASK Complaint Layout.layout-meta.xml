@@ -135,6 +135,10 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>compliancequest__Company_Name__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>compliancequest__Report_Source__c</field>
             </layoutItems>
             <layoutItems>

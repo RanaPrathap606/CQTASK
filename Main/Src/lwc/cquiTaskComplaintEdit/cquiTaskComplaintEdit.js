@@ -1,6 +1,9 @@
 // basic import
 import { track, api} from 'lwc';
 import cqRecordForm from 'c/cqRecordForm';
+// basic import
+import { track, api} from 'lwc';
+import cqRecordForm from 'c/cqRecordForm';
 
 
 

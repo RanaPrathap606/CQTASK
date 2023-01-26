@@ -45,10 +45,6 @@
                 <behavior>Edit</behavior>
                 <field>compliancequest__Response_Required__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>CQ_TASK_Assigned_Post_Market_Analyst__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -133,10 +129,6 @@
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>compliancequest__Company_Name__c</field>
-            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>compliancequest__Report_Source__c</field>
@@ -374,8 +366,16 @@
                 <field>CQ_TASK_Investigation_Summary__c</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CQ_TASK_InvestigationRecordJustification__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CQ_TASK_Results_of_Investigation__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CQ_TASK_Investigation_Extension__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -424,6 +424,14 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>CQ_TASK_SQX_NCMR_Number__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CQ_TASK_Decision_Made_By__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CQ_TASK_Date__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -490,6 +498,14 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>CQ_TASK_Legacy_Documentation__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CQ_TASK_Manager_Approval__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CQ_TASK_Assigned_Post_Market_Analyst__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

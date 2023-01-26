@@ -1,6 +1,9 @@
 // basic import
 import { track, api} from 'lwc';
 import cqRecordForm from 'c/cqRecordForm';
+// basic import
+import { track, api} from 'lwc';
+import cqRecordForm from 'c/cqRecordForm';
 
 
 
@@ -38,11 +41,6 @@ import FIELD_COMPLIANCEQUEST__RESPONSE_REQUIRED__C from '@salesforce/schema/comp
 
 import FIELD_COMPLIANCEQUEST__WHEN_OCCURED__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__When_Occured__c';
 
-<<<<<<< HEAD
-import FIELD_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_Assigned_Post_Market_Analyst__c';
-
-=======
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
 import FIELD_COMPLIANCEQUEST__PATIENT_INVOLVED__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__Patient_Involved__c';
 
 import FIELD_COMPLIANCEQUEST__PATIENT_GENDER__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__Patient_Gender__c';
@@ -57,7 +55,6 @@ import FIELD_COMPLIANCEQUEST__UNIT_OF_WEIGHT__C from '@salesforce/schema/complia
 
 import FIELD_COMPLIANCEQUEST__SQX_ACCOUNT__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__SQX_Account__c';
 
-<<<<<<< HEAD
 import FIELD_COMPLIANCEQUEST__REPORT_SOURCE__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__Report_Source__c';
 
 import FIELD_COMPLIANCEQUEST__SQX_EXTERNAL_CONTACT__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__SQX_External_Contact__c';
@@ -71,17 +68,6 @@ import FIELD_CQ_TASK_CONTACT_E_MAIL__C from '@salesforce/schema/compliancequest_
 import FIELD_COMPLIANCEQUEST__COUNTRY_OF_ORIGIN__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__Country_of_Origin__c';
 
 import FIELD_CQ_TASK_SHIPPING_ADDRESS__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_Shipping_Address__c';
-=======
-import FIELD_COMPLIANCEQUEST__COMPANY_NAME__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__Company_Name__c';
-
-import FIELD_COMPLIANCEQUEST__SQX_EXTERNAL_CONTACT__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__SQX_External_Contact__c';
-
-import FIELD_COMPLIANCEQUEST__REPORT_SOURCE__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__Report_Source__c';
-
-import FIELD_COMPLIANCEQUEST__COUNTRY_OF_ORIGIN__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__Country_of_Origin__c';
-
-import FIELD_COMPLIANCEQUEST__SQX_SOURCE_CASE__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__SQX_Source_Case__c';
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
 
 import FIELD_COMPLIANCEQUEST__METHOD_OF_CONTACT__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__Method_of_Contact__c';
 
@@ -157,47 +143,59 @@ import FIELD_CQ_TASK_INVESTIGATION_SUMMARY__C from '@salesforce/schema/complianc
 
 import FIELD_COMPLIANCEQUEST__SQX_CONCLUSION_CODE__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__SQX_Conclusion_Code__c';
 
-import FIELD_CQ_TASK_RESULTS_OF_INVESTIGATION__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_Results_of_Investigation__c';
+import FIELD_CQ_TASK_INVESTIGATIONRECORDJUSTIFICATION__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_InvestigationRecordJustification__c';
 
 import FIELD_COMPLIANCEQUEST__SQX_SECONDARY_CONCLUSION__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__SQX_Secondary_Conclusion__c';
 
-import FIELD_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__Confirm_Complaint__c';
+import FIELD_CQ_TASK_RESULTS_OF_INVESTIGATION__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_Results_of_Investigation__c';
 
 import FIELD_COMPLIANCEQUEST__SQX_CAPA__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__SQX_CAPA__c';
 
-import FIELD_COMPLIANCEQUEST__CAPA_ESCALATION__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__CAPA_Escalation__c';
+import FIELD_CQ_TASK_INVESTIGATION_EXTENSION__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_Investigation_Extension__c';
 
 import FIELD_CQ_TASK_EXTERNAL_CAPA_NUMBER__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_External_CAPA_Number__c';
 
-import FIELD_COMPLIANCEQUEST__CHANGE_CONTROL__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__Change_Control__c';
+import FIELD_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__Confirm_Complaint__c';
 
 import FIELD_COMPLIANCEQUEST__CHANGE_CONTROL_NUMBER__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__Change_Control_Number__c';
 
-import FIELD_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__Require_Closure_Review__c';
+import FIELD_COMPLIANCEQUEST__CAPA_ESCALATION__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__CAPA_Escalation__c';
 
 import FIELD_CQ_TASK_EXTERNAL_ECO_ECR_NUMBER__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_External_ECO_ECR_Number__c';
 
-import FIELD_CQ_TASK_SCAR__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_SCAR__c';
+import FIELD_COMPLIANCEQUEST__CHANGE_CONTROL__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__Change_Control__c';
 
 import FIELD_COMPLIANCEQUEST__CLOSURE_REVIEW_BY__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__Closure_Review_By__c';
 
-import FIELD_CQ_TASK_EXTERNAL_SCAR_NUMBER__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_External_SCAR_Number__c';
+import FIELD_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__Require_Closure_Review__c';
 
 import FIELD_CQ_TASK_SQX_SUPPLIER_ESCALATION__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_SQX_Supplier_Escalation__c';
 
-import FIELD_CQ_TASK_NCMR__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_NCMR__c';
+import FIELD_CQ_TASK_SCAR__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_SCAR__c';
 
 import FIELD_CQ_TASK_ADVISORY_NOTICE_RECALL__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_Advisory_Notice_Recall__c';
 
-import FIELD_CQ_TASK_EXTERNAL_NCMR_NUMBER__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_External_NCMR_Number__c';
+import FIELD_CQ_TASK_EXTERNAL_SCAR_NUMBER__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_External_SCAR_Number__c';
 
 import FIELD_CQ_TASK_ADVISORY_NOTICE_RECALL_NUMBER__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_Advisory_Notice_Recall_Number__c';
 
-import FIELD_CQ_TASK_SQX_NCMR_NUMBER__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_SQX_NCMR_Number__c';
+import FIELD_CQ_TASK_NCMR__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_NCMR__c';
 
 import FIELD_CQ_TASK_LEGACY_NUMBER__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_Legacy_Number__c';
 
+import FIELD_CQ_TASK_EXTERNAL_NCMR_NUMBER__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_External_NCMR_Number__c';
+
 import FIELD_CQ_TASK_LEGACY_DOCUMENTATION__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_Legacy_Documentation__c';
+
+import FIELD_CQ_TASK_SQX_NCMR_NUMBER__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_SQX_NCMR_Number__c';
+
+import FIELD_CQ_TASK_MANAGER_APPROVAL__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_Manager_Approval__c';
+
+import FIELD_CQ_TASK_DECISION_MADE_BY__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_Decision_Made_By__c';
+
+import FIELD_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_Assigned_Post_Market_Analyst__c';
+
+import FIELD_CQ_TASK_DATE__C from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_Date__c';
 
 
 
@@ -264,12 +262,6 @@ import FIELD_COMPLIANCEQUEST__SQX_COMPLAINT_CODE__NAME from '@salesforce/schema/
 
 
     
-<<<<<<< HEAD
-
-
-    
-=======
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
 import FIELD_COMPLIANCEQUEST__SQX_ACCOUNT__NAME from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__SQX_Account__r.Name';
     
 
@@ -283,15 +275,6 @@ import FIELD_COMPLIANCEQUEST__SQX_EXTERNAL_CONTACT__NAME from '@salesforce/schem
 
 
     
-<<<<<<< HEAD
-=======
-
-
-    
-
-
-    
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
 import FIELD_COMPLIANCEQUEST__SQX_SOURCE_CASE__NAME from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__SQX_Source_Case__r.CaseNumber';
     
 
@@ -315,7 +298,6 @@ import FIELD_COMPLIANCEQUEST__SQX_SOURCE_CASE__NAME from '@salesforce/schema/com
 
 
     
-<<<<<<< HEAD
 
 
     
@@ -328,8 +310,6 @@ import FIELD_COMPLIANCEQUEST__SQX_SOURCE_CASE__NAME from '@salesforce/schema/com
 
 
     
-=======
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
 import FIELD_COMPLIANCEQUEST__SQX_DEPARTMENT__NAME from '@salesforce/schema/compliancequest__SQX_Complaint__c.compliancequest__SQX_Department__r.Name';
     
 
@@ -497,7 +477,25 @@ import FIELD_CQ_TASK_SQX_SUPPLIER_ESCALATION__NAME from '@salesforce/schema/comp
 
 
     
+
+
+    
+
+
+    
+
+
+    
+
+
+    
 import FIELD_CQ_TASK_SQX_NCMR_NUMBER__NAME from '@salesforce/schema/compliancequest__SQX_Complaint__c.CQ_TASK_SQX_NCMR_Number__r.Name';
+    
+
+
+    
+
+
     
 
 
@@ -596,11 +594,6 @@ const fields = [
     
     FIELD_COMPLIANCEQUEST__WHEN_OCCURED__C,
     
-<<<<<<< HEAD
-    FIELD_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C,
-    
-=======
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
     FIELD_COMPLIANCEQUEST__PATIENT_INVOLVED__C,
     
     FIELD_COMPLIANCEQUEST__PATIENT_GENDER__C,
@@ -615,7 +608,6 @@ const fields = [
     
     FIELD_COMPLIANCEQUEST__SQX_ACCOUNT__C,
     
-<<<<<<< HEAD
     FIELD_COMPLIANCEQUEST__REPORT_SOURCE__C,
     
     FIELD_COMPLIANCEQUEST__SQX_EXTERNAL_CONTACT__C,
@@ -629,17 +621,6 @@ const fields = [
     FIELD_COMPLIANCEQUEST__COUNTRY_OF_ORIGIN__C,
     
     FIELD_CQ_TASK_SHIPPING_ADDRESS__C,
-=======
-    FIELD_COMPLIANCEQUEST__COMPANY_NAME__C,
-    
-    FIELD_COMPLIANCEQUEST__SQX_EXTERNAL_CONTACT__C,
-    
-    FIELD_COMPLIANCEQUEST__REPORT_SOURCE__C,
-    
-    FIELD_COMPLIANCEQUEST__COUNTRY_OF_ORIGIN__C,
-    
-    FIELD_COMPLIANCEQUEST__SQX_SOURCE_CASE__C,
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
     
     FIELD_COMPLIANCEQUEST__METHOD_OF_CONTACT__C,
     
@@ -715,47 +696,59 @@ const fields = [
     
     FIELD_COMPLIANCEQUEST__SQX_CONCLUSION_CODE__C,
     
-    FIELD_CQ_TASK_RESULTS_OF_INVESTIGATION__C,
+    FIELD_CQ_TASK_INVESTIGATIONRECORDJUSTIFICATION__C,
     
     FIELD_COMPLIANCEQUEST__SQX_SECONDARY_CONCLUSION__C,
     
-    FIELD_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C,
+    FIELD_CQ_TASK_RESULTS_OF_INVESTIGATION__C,
     
     FIELD_COMPLIANCEQUEST__SQX_CAPA__C,
     
-    FIELD_COMPLIANCEQUEST__CAPA_ESCALATION__C,
+    FIELD_CQ_TASK_INVESTIGATION_EXTENSION__C,
     
     FIELD_CQ_TASK_EXTERNAL_CAPA_NUMBER__C,
     
-    FIELD_COMPLIANCEQUEST__CHANGE_CONTROL__C,
+    FIELD_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C,
     
     FIELD_COMPLIANCEQUEST__CHANGE_CONTROL_NUMBER__C,
     
-    FIELD_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C,
+    FIELD_COMPLIANCEQUEST__CAPA_ESCALATION__C,
     
     FIELD_CQ_TASK_EXTERNAL_ECO_ECR_NUMBER__C,
     
-    FIELD_CQ_TASK_SCAR__C,
+    FIELD_COMPLIANCEQUEST__CHANGE_CONTROL__C,
     
     FIELD_COMPLIANCEQUEST__CLOSURE_REVIEW_BY__C,
     
-    FIELD_CQ_TASK_EXTERNAL_SCAR_NUMBER__C,
+    FIELD_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C,
     
     FIELD_CQ_TASK_SQX_SUPPLIER_ESCALATION__C,
     
-    FIELD_CQ_TASK_NCMR__C,
+    FIELD_CQ_TASK_SCAR__C,
     
     FIELD_CQ_TASK_ADVISORY_NOTICE_RECALL__C,
     
-    FIELD_CQ_TASK_EXTERNAL_NCMR_NUMBER__C,
+    FIELD_CQ_TASK_EXTERNAL_SCAR_NUMBER__C,
     
     FIELD_CQ_TASK_ADVISORY_NOTICE_RECALL_NUMBER__C,
     
-    FIELD_CQ_TASK_SQX_NCMR_NUMBER__C,
+    FIELD_CQ_TASK_NCMR__C,
     
     FIELD_CQ_TASK_LEGACY_NUMBER__C,
     
+    FIELD_CQ_TASK_EXTERNAL_NCMR_NUMBER__C,
+    
     FIELD_CQ_TASK_LEGACY_DOCUMENTATION__C,
+    
+    FIELD_CQ_TASK_SQX_NCMR_NUMBER__C,
+    
+    FIELD_CQ_TASK_MANAGER_APPROVAL__C,
+    
+    FIELD_CQ_TASK_DECISION_MADE_BY__C,
+    
+    FIELD_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C,
+    
+    FIELD_CQ_TASK_DATE__C,
     
     
     
@@ -796,11 +789,6 @@ const fields = [
         
     
         
-<<<<<<< HEAD
-    
-        
-=======
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
     FIELD_COMPLIANCEQUEST__SQX_ACCOUNT__NAME,
         
     
@@ -811,13 +799,6 @@ const fields = [
         
     
         
-<<<<<<< HEAD
-=======
-    
-        
-    
-        
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
     FIELD_COMPLIANCEQUEST__SQX_SOURCE_CASE__NAME,
         
     
@@ -834,7 +815,6 @@ const fields = [
         
     
         
-<<<<<<< HEAD
     
         
     
@@ -843,8 +823,6 @@ const fields = [
         
     
         
-=======
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
     FIELD_COMPLIANCEQUEST__SQX_DEPARTMENT__NAME,
         
     
@@ -963,7 +941,19 @@ const fields = [
         
     
         
+    
+        
+    
+        
+    
+        
+    
+        
     FIELD_CQ_TASK_SQX_NCMR_NUMBER__NAME,
+        
+    
+        
+    
         
     
         
@@ -1012,11 +1002,6 @@ const lookupDisplayFields = {
         
 
         
-<<<<<<< HEAD
-
-        
-=======
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
     "compliancequest__SQX_Account__c": FIELD_COMPLIANCEQUEST__SQX_ACCOUNT__NAME,
     
 
@@ -1027,13 +1012,6 @@ const lookupDisplayFields = {
     
 
         
-<<<<<<< HEAD
-=======
-
-        
-
-        
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
     "compliancequest__SQX_Source_Case__c": FIELD_COMPLIANCEQUEST__SQX_SOURCE_CASE__NAME,
     
 
@@ -1050,7 +1028,6 @@ const lookupDisplayFields = {
         
 
         
-<<<<<<< HEAD
 
         
 
@@ -1059,8 +1036,6 @@ const lookupDisplayFields = {
         
 
         
-=======
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
     "compliancequest__SQX_Department__c": FIELD_COMPLIANCEQUEST__SQX_DEPARTMENT__NAME,
     
 
@@ -1179,8 +1154,20 @@ const lookupDisplayFields = {
         
 
         
+
+        
+
+        
+
+        
+
+        
     "CQ_TASK_SQX_NCMR_Number__c": FIELD_CQ_TASK_SQX_NCMR_NUMBER__NAME,
     
+
+        
+
+        
 
         
 
@@ -1375,22 +1362,6 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
     }
 
     
-<<<<<<< HEAD
-    get v_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C() {
-        return this.getValueFor(FIELD_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C.fieldApiName);
-    }
-    get f_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C() {
-        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C.fieldApiName] : {};
-        return val;
-    }
-
-    get d_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C() {
-        return lookupDisplayFields[FIELD_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C.fieldApiName].fieldApiName);
-    }
-
-    
-=======
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
     get v_COMPLIANCEQUEST__PATIENT_INVOLVED__C() {
         return this.getValueFor(FIELD_COMPLIANCEQUEST__PATIENT_INVOLVED__C.fieldApiName);
     }
@@ -1482,7 +1453,6 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
     }
 
     
-<<<<<<< HEAD
     get v_COMPLIANCEQUEST__REPORT_SOURCE__C() {
         return this.getValueFor(FIELD_COMPLIANCEQUEST__REPORT_SOURCE__C.fieldApiName);
     }
@@ -1493,18 +1463,6 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
 
     get d_COMPLIANCEQUEST__REPORT_SOURCE__C() {
         return lookupDisplayFields[FIELD_COMPLIANCEQUEST__REPORT_SOURCE__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_COMPLIANCEQUEST__REPORT_SOURCE__C.fieldApiName].fieldApiName);
-=======
-    get v_COMPLIANCEQUEST__COMPANY_NAME__C() {
-        return this.getValueFor(FIELD_COMPLIANCEQUEST__COMPANY_NAME__C.fieldApiName);
-    }
-    get f_COMPLIANCEQUEST__COMPANY_NAME__C() {
-        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_COMPLIANCEQUEST__COMPANY_NAME__C.fieldApiName] : {};
-        return val;
-    }
-
-    get d_COMPLIANCEQUEST__COMPANY_NAME__C() {
-        return lookupDisplayFields[FIELD_COMPLIANCEQUEST__COMPANY_NAME__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_COMPLIANCEQUEST__COMPANY_NAME__C.fieldApiName].fieldApiName);
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
     }
 
     
@@ -1521,7 +1479,6 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
     }
 
     
-<<<<<<< HEAD
     get v_COMPLIANCEQUEST__SQX_SOURCE_CASE__C() {
         return this.getValueFor(FIELD_COMPLIANCEQUEST__SQX_SOURCE_CASE__C.fieldApiName);
     }
@@ -1558,18 +1515,6 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
 
     get d_CQ_TASK_CONTACT_E_MAIL__C() {
         return lookupDisplayFields[FIELD_CQ_TASK_CONTACT_E_MAIL__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_CONTACT_E_MAIL__C.fieldApiName].fieldApiName);
-=======
-    get v_COMPLIANCEQUEST__REPORT_SOURCE__C() {
-        return this.getValueFor(FIELD_COMPLIANCEQUEST__REPORT_SOURCE__C.fieldApiName);
-    }
-    get f_COMPLIANCEQUEST__REPORT_SOURCE__C() {
-        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_COMPLIANCEQUEST__REPORT_SOURCE__C.fieldApiName] : {};
-        return val;
-    }
-
-    get d_COMPLIANCEQUEST__REPORT_SOURCE__C() {
-        return lookupDisplayFields[FIELD_COMPLIANCEQUEST__REPORT_SOURCE__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_COMPLIANCEQUEST__REPORT_SOURCE__C.fieldApiName].fieldApiName);
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
     }
 
     
@@ -1586,7 +1531,6 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
     }
 
     
-<<<<<<< HEAD
     get v_CQ_TASK_SHIPPING_ADDRESS__C() {
         return this.getValueFor(FIELD_CQ_TASK_SHIPPING_ADDRESS__C.fieldApiName);
     }
@@ -1597,18 +1541,6 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
 
     get d_CQ_TASK_SHIPPING_ADDRESS__C() {
         return lookupDisplayFields[FIELD_CQ_TASK_SHIPPING_ADDRESS__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_SHIPPING_ADDRESS__C.fieldApiName].fieldApiName);
-=======
-    get v_COMPLIANCEQUEST__SQX_SOURCE_CASE__C() {
-        return this.getValueFor(FIELD_COMPLIANCEQUEST__SQX_SOURCE_CASE__C.fieldApiName);
-    }
-    get f_COMPLIANCEQUEST__SQX_SOURCE_CASE__C() {
-        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_COMPLIANCEQUEST__SQX_SOURCE_CASE__C.fieldApiName] : {};
-        return val;
-    }
-
-    get d_COMPLIANCEQUEST__SQX_SOURCE_CASE__C() {
-        return lookupDisplayFields[FIELD_COMPLIANCEQUEST__SQX_SOURCE_CASE__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_COMPLIANCEQUEST__SQX_SOURCE_CASE__C.fieldApiName].fieldApiName);
->>>>>>> e269e69b24499fa90a2ed42cc3f5ac4fc89f6fe1
     }
 
     
@@ -2093,16 +2025,16 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
     }
 
     
-    get v_CQ_TASK_RESULTS_OF_INVESTIGATION__C() {
-        return this.getValueFor(FIELD_CQ_TASK_RESULTS_OF_INVESTIGATION__C.fieldApiName);
+    get v_CQ_TASK_INVESTIGATIONRECORDJUSTIFICATION__C() {
+        return this.getValueFor(FIELD_CQ_TASK_INVESTIGATIONRECORDJUSTIFICATION__C.fieldApiName);
     }
-    get f_CQ_TASK_RESULTS_OF_INVESTIGATION__C() {
-        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_RESULTS_OF_INVESTIGATION__C.fieldApiName] : {};
+    get f_CQ_TASK_INVESTIGATIONRECORDJUSTIFICATION__C() {
+        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_INVESTIGATIONRECORDJUSTIFICATION__C.fieldApiName] : {};
         return val;
     }
 
-    get d_CQ_TASK_RESULTS_OF_INVESTIGATION__C() {
-        return lookupDisplayFields[FIELD_CQ_TASK_RESULTS_OF_INVESTIGATION__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_RESULTS_OF_INVESTIGATION__C.fieldApiName].fieldApiName);
+    get d_CQ_TASK_INVESTIGATIONRECORDJUSTIFICATION__C() {
+        return lookupDisplayFields[FIELD_CQ_TASK_INVESTIGATIONRECORDJUSTIFICATION__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_INVESTIGATIONRECORDJUSTIFICATION__C.fieldApiName].fieldApiName);
     }
 
     
@@ -2119,16 +2051,16 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
     }
 
     
-    get v_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C() {
-        return this.getValueFor(FIELD_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C.fieldApiName);
+    get v_CQ_TASK_RESULTS_OF_INVESTIGATION__C() {
+        return this.getValueFor(FIELD_CQ_TASK_RESULTS_OF_INVESTIGATION__C.fieldApiName);
     }
-    get f_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C() {
-        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C.fieldApiName] : {};
+    get f_CQ_TASK_RESULTS_OF_INVESTIGATION__C() {
+        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_RESULTS_OF_INVESTIGATION__C.fieldApiName] : {};
         return val;
     }
 
-    get d_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C() {
-        return lookupDisplayFields[FIELD_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C.fieldApiName].fieldApiName);
+    get d_CQ_TASK_RESULTS_OF_INVESTIGATION__C() {
+        return lookupDisplayFields[FIELD_CQ_TASK_RESULTS_OF_INVESTIGATION__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_RESULTS_OF_INVESTIGATION__C.fieldApiName].fieldApiName);
     }
 
     
@@ -2145,16 +2077,16 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
     }
 
     
-    get v_COMPLIANCEQUEST__CAPA_ESCALATION__C() {
-        return this.getValueFor(FIELD_COMPLIANCEQUEST__CAPA_ESCALATION__C.fieldApiName);
+    get v_CQ_TASK_INVESTIGATION_EXTENSION__C() {
+        return this.getValueFor(FIELD_CQ_TASK_INVESTIGATION_EXTENSION__C.fieldApiName);
     }
-    get f_COMPLIANCEQUEST__CAPA_ESCALATION__C() {
-        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_COMPLIANCEQUEST__CAPA_ESCALATION__C.fieldApiName] : {};
+    get f_CQ_TASK_INVESTIGATION_EXTENSION__C() {
+        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_INVESTIGATION_EXTENSION__C.fieldApiName] : {};
         return val;
     }
 
-    get d_COMPLIANCEQUEST__CAPA_ESCALATION__C() {
-        return lookupDisplayFields[FIELD_COMPLIANCEQUEST__CAPA_ESCALATION__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_COMPLIANCEQUEST__CAPA_ESCALATION__C.fieldApiName].fieldApiName);
+    get d_CQ_TASK_INVESTIGATION_EXTENSION__C() {
+        return lookupDisplayFields[FIELD_CQ_TASK_INVESTIGATION_EXTENSION__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_INVESTIGATION_EXTENSION__C.fieldApiName].fieldApiName);
     }
 
     
@@ -2171,16 +2103,16 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
     }
 
     
-    get v_COMPLIANCEQUEST__CHANGE_CONTROL__C() {
-        return this.getValueFor(FIELD_COMPLIANCEQUEST__CHANGE_CONTROL__C.fieldApiName);
+    get v_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C() {
+        return this.getValueFor(FIELD_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C.fieldApiName);
     }
-    get f_COMPLIANCEQUEST__CHANGE_CONTROL__C() {
-        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_COMPLIANCEQUEST__CHANGE_CONTROL__C.fieldApiName] : {};
+    get f_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C() {
+        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C.fieldApiName] : {};
         return val;
     }
 
-    get d_COMPLIANCEQUEST__CHANGE_CONTROL__C() {
-        return lookupDisplayFields[FIELD_COMPLIANCEQUEST__CHANGE_CONTROL__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_COMPLIANCEQUEST__CHANGE_CONTROL__C.fieldApiName].fieldApiName);
+    get d_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C() {
+        return lookupDisplayFields[FIELD_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_COMPLIANCEQUEST__CONFIRM_COMPLAINT__C.fieldApiName].fieldApiName);
     }
 
     
@@ -2197,16 +2129,16 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
     }
 
     
-    get v_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C() {
-        return this.getValueFor(FIELD_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C.fieldApiName);
+    get v_COMPLIANCEQUEST__CAPA_ESCALATION__C() {
+        return this.getValueFor(FIELD_COMPLIANCEQUEST__CAPA_ESCALATION__C.fieldApiName);
     }
-    get f_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C() {
-        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C.fieldApiName] : {};
+    get f_COMPLIANCEQUEST__CAPA_ESCALATION__C() {
+        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_COMPLIANCEQUEST__CAPA_ESCALATION__C.fieldApiName] : {};
         return val;
     }
 
-    get d_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C() {
-        return lookupDisplayFields[FIELD_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C.fieldApiName].fieldApiName);
+    get d_COMPLIANCEQUEST__CAPA_ESCALATION__C() {
+        return lookupDisplayFields[FIELD_COMPLIANCEQUEST__CAPA_ESCALATION__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_COMPLIANCEQUEST__CAPA_ESCALATION__C.fieldApiName].fieldApiName);
     }
 
     
@@ -2223,16 +2155,16 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
     }
 
     
-    get v_CQ_TASK_SCAR__C() {
-        return this.getValueFor(FIELD_CQ_TASK_SCAR__C.fieldApiName);
+    get v_COMPLIANCEQUEST__CHANGE_CONTROL__C() {
+        return this.getValueFor(FIELD_COMPLIANCEQUEST__CHANGE_CONTROL__C.fieldApiName);
     }
-    get f_CQ_TASK_SCAR__C() {
-        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_SCAR__C.fieldApiName] : {};
+    get f_COMPLIANCEQUEST__CHANGE_CONTROL__C() {
+        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_COMPLIANCEQUEST__CHANGE_CONTROL__C.fieldApiName] : {};
         return val;
     }
 
-    get d_CQ_TASK_SCAR__C() {
-        return lookupDisplayFields[FIELD_CQ_TASK_SCAR__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_SCAR__C.fieldApiName].fieldApiName);
+    get d_COMPLIANCEQUEST__CHANGE_CONTROL__C() {
+        return lookupDisplayFields[FIELD_COMPLIANCEQUEST__CHANGE_CONTROL__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_COMPLIANCEQUEST__CHANGE_CONTROL__C.fieldApiName].fieldApiName);
     }
 
     
@@ -2249,16 +2181,16 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
     }
 
     
-    get v_CQ_TASK_EXTERNAL_SCAR_NUMBER__C() {
-        return this.getValueFor(FIELD_CQ_TASK_EXTERNAL_SCAR_NUMBER__C.fieldApiName);
+    get v_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C() {
+        return this.getValueFor(FIELD_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C.fieldApiName);
     }
-    get f_CQ_TASK_EXTERNAL_SCAR_NUMBER__C() {
-        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_EXTERNAL_SCAR_NUMBER__C.fieldApiName] : {};
+    get f_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C() {
+        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C.fieldApiName] : {};
         return val;
     }
 
-    get d_CQ_TASK_EXTERNAL_SCAR_NUMBER__C() {
-        return lookupDisplayFields[FIELD_CQ_TASK_EXTERNAL_SCAR_NUMBER__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_EXTERNAL_SCAR_NUMBER__C.fieldApiName].fieldApiName);
+    get d_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C() {
+        return lookupDisplayFields[FIELD_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_COMPLIANCEQUEST__REQUIRE_CLOSURE_REVIEW__C.fieldApiName].fieldApiName);
     }
 
     
@@ -2275,16 +2207,16 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
     }
 
     
-    get v_CQ_TASK_NCMR__C() {
-        return this.getValueFor(FIELD_CQ_TASK_NCMR__C.fieldApiName);
+    get v_CQ_TASK_SCAR__C() {
+        return this.getValueFor(FIELD_CQ_TASK_SCAR__C.fieldApiName);
     }
-    get f_CQ_TASK_NCMR__C() {
-        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_NCMR__C.fieldApiName] : {};
+    get f_CQ_TASK_SCAR__C() {
+        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_SCAR__C.fieldApiName] : {};
         return val;
     }
 
-    get d_CQ_TASK_NCMR__C() {
-        return lookupDisplayFields[FIELD_CQ_TASK_NCMR__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_NCMR__C.fieldApiName].fieldApiName);
+    get d_CQ_TASK_SCAR__C() {
+        return lookupDisplayFields[FIELD_CQ_TASK_SCAR__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_SCAR__C.fieldApiName].fieldApiName);
     }
 
     
@@ -2301,16 +2233,16 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
     }
 
     
-    get v_CQ_TASK_EXTERNAL_NCMR_NUMBER__C() {
-        return this.getValueFor(FIELD_CQ_TASK_EXTERNAL_NCMR_NUMBER__C.fieldApiName);
+    get v_CQ_TASK_EXTERNAL_SCAR_NUMBER__C() {
+        return this.getValueFor(FIELD_CQ_TASK_EXTERNAL_SCAR_NUMBER__C.fieldApiName);
     }
-    get f_CQ_TASK_EXTERNAL_NCMR_NUMBER__C() {
-        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_EXTERNAL_NCMR_NUMBER__C.fieldApiName] : {};
+    get f_CQ_TASK_EXTERNAL_SCAR_NUMBER__C() {
+        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_EXTERNAL_SCAR_NUMBER__C.fieldApiName] : {};
         return val;
     }
 
-    get d_CQ_TASK_EXTERNAL_NCMR_NUMBER__C() {
-        return lookupDisplayFields[FIELD_CQ_TASK_EXTERNAL_NCMR_NUMBER__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_EXTERNAL_NCMR_NUMBER__C.fieldApiName].fieldApiName);
+    get d_CQ_TASK_EXTERNAL_SCAR_NUMBER__C() {
+        return lookupDisplayFields[FIELD_CQ_TASK_EXTERNAL_SCAR_NUMBER__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_EXTERNAL_SCAR_NUMBER__C.fieldApiName].fieldApiName);
     }
 
     
@@ -2327,16 +2259,16 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
     }
 
     
-    get v_CQ_TASK_SQX_NCMR_NUMBER__C() {
-        return this.getValueFor(FIELD_CQ_TASK_SQX_NCMR_NUMBER__C.fieldApiName);
+    get v_CQ_TASK_NCMR__C() {
+        return this.getValueFor(FIELD_CQ_TASK_NCMR__C.fieldApiName);
     }
-    get f_CQ_TASK_SQX_NCMR_NUMBER__C() {
-        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_SQX_NCMR_NUMBER__C.fieldApiName] : {};
+    get f_CQ_TASK_NCMR__C() {
+        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_NCMR__C.fieldApiName] : {};
         return val;
     }
 
-    get d_CQ_TASK_SQX_NCMR_NUMBER__C() {
-        return lookupDisplayFields[FIELD_CQ_TASK_SQX_NCMR_NUMBER__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_SQX_NCMR_NUMBER__C.fieldApiName].fieldApiName);
+    get d_CQ_TASK_NCMR__C() {
+        return lookupDisplayFields[FIELD_CQ_TASK_NCMR__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_NCMR__C.fieldApiName].fieldApiName);
     }
 
     
@@ -2353,6 +2285,19 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
     }
 
     
+    get v_CQ_TASK_EXTERNAL_NCMR_NUMBER__C() {
+        return this.getValueFor(FIELD_CQ_TASK_EXTERNAL_NCMR_NUMBER__C.fieldApiName);
+    }
+    get f_CQ_TASK_EXTERNAL_NCMR_NUMBER__C() {
+        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_EXTERNAL_NCMR_NUMBER__C.fieldApiName] : {};
+        return val;
+    }
+
+    get d_CQ_TASK_EXTERNAL_NCMR_NUMBER__C() {
+        return lookupDisplayFields[FIELD_CQ_TASK_EXTERNAL_NCMR_NUMBER__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_EXTERNAL_NCMR_NUMBER__C.fieldApiName].fieldApiName);
+    }
+
+    
     get v_CQ_TASK_LEGACY_DOCUMENTATION__C() {
         return this.getValueFor(FIELD_CQ_TASK_LEGACY_DOCUMENTATION__C.fieldApiName);
     }
@@ -2363,6 +2308,71 @@ export default class cquiTaskComplaintEdit  extends cqRecordForm {
 
     get d_CQ_TASK_LEGACY_DOCUMENTATION__C() {
         return lookupDisplayFields[FIELD_CQ_TASK_LEGACY_DOCUMENTATION__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_LEGACY_DOCUMENTATION__C.fieldApiName].fieldApiName);
+    }
+
+    
+    get v_CQ_TASK_SQX_NCMR_NUMBER__C() {
+        return this.getValueFor(FIELD_CQ_TASK_SQX_NCMR_NUMBER__C.fieldApiName);
+    }
+    get f_CQ_TASK_SQX_NCMR_NUMBER__C() {
+        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_SQX_NCMR_NUMBER__C.fieldApiName] : {};
+        return val;
+    }
+
+    get d_CQ_TASK_SQX_NCMR_NUMBER__C() {
+        return lookupDisplayFields[FIELD_CQ_TASK_SQX_NCMR_NUMBER__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_SQX_NCMR_NUMBER__C.fieldApiName].fieldApiName);
+    }
+
+    
+    get v_CQ_TASK_MANAGER_APPROVAL__C() {
+        return this.getValueFor(FIELD_CQ_TASK_MANAGER_APPROVAL__C.fieldApiName);
+    }
+    get f_CQ_TASK_MANAGER_APPROVAL__C() {
+        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_MANAGER_APPROVAL__C.fieldApiName] : {};
+        return val;
+    }
+
+    get d_CQ_TASK_MANAGER_APPROVAL__C() {
+        return lookupDisplayFields[FIELD_CQ_TASK_MANAGER_APPROVAL__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_MANAGER_APPROVAL__C.fieldApiName].fieldApiName);
+    }
+
+    
+    get v_CQ_TASK_DECISION_MADE_BY__C() {
+        return this.getValueFor(FIELD_CQ_TASK_DECISION_MADE_BY__C.fieldApiName);
+    }
+    get f_CQ_TASK_DECISION_MADE_BY__C() {
+        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_DECISION_MADE_BY__C.fieldApiName] : {};
+        return val;
+    }
+
+    get d_CQ_TASK_DECISION_MADE_BY__C() {
+        return lookupDisplayFields[FIELD_CQ_TASK_DECISION_MADE_BY__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_DECISION_MADE_BY__C.fieldApiName].fieldApiName);
+    }
+
+    
+    get v_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C() {
+        return this.getValueFor(FIELD_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C.fieldApiName);
+    }
+    get f_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C() {
+        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C.fieldApiName] : {};
+        return val;
+    }
+
+    get d_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C() {
+        return lookupDisplayFields[FIELD_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_ASSIGNED_POST_MARKET_ANALYST__C.fieldApiName].fieldApiName);
+    }
+
+    
+    get v_CQ_TASK_DATE__C() {
+        return this.getValueFor(FIELD_CQ_TASK_DATE__C.fieldApiName);
+    }
+    get f_CQ_TASK_DATE__C() {
+        let val=this.fieldsInfo ? this.fieldsInfo[FIELD_CQ_TASK_DATE__C.fieldApiName] : {};
+        return val;
+    }
+
+    get d_CQ_TASK_DATE__C() {
+        return lookupDisplayFields[FIELD_CQ_TASK_DATE__C.fieldApiName] && this.getValueFor(lookupDisplayFields[FIELD_CQ_TASK_DATE__C.fieldApiName].fieldApiName);
     }
 
     

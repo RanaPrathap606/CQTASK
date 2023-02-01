@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CQ_TASK_Dt_NanoString_Diagnosis_Ret__c</fullName>
+    <description>This Date field will capture Date NanoString Diagnosis Returned value.</description>
+    <externalId>false</externalId>
+    <label>Date NanoString Diagnosis Returned</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

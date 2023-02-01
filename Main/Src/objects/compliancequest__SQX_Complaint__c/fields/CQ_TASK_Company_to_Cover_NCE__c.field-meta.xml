@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CQ_TASK_Company_to_Cover_NCE__c</fullName>
+    <description>This picklist field will capture Company to Cover NCE value.</description>
+    <externalId>false</externalId>
+    <label>Company to Cover NCE</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NSTG</fullName>
+                <default>false</default>
+                <label>NSTG</label>
+            </value>
+            <value>
+                <fullName>VCYT</fullName>
+                <default>false</default>
+                <label>VCYT</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
